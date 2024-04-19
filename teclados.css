@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(82, 82, 82);
+}
+header{
+    background: rgb(0, 9, 139);
+    height: 140px;
+
+}
+header h1{
+    color: black;
+    font-size: 70px;
+    text-align: center;
+}
+
+nav{
+    margin-top: 10px;
+    margin-left: 830px;
+}
+
+nav a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+#aviso{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 27px;
+    margin-left: 730px;
+    width: 440px;
+    background: rgb(0, 9, 139);
+    color: black;
+    border-radius: 10px;
+    
+}
+
+section{
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background: black;
+    height: 310px;
+}
+
+div{
+    margin-left: 80px;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: white;
+    width: 350px;
+}
+div img{
+    
+    height: 100px;
+}
+button{
+    margin-left: 270px;
+    height: 30px;
+    border: none;
+    background: black;
+    color: white;
+}
+
+button:hover{
+    margin-left: 270px;
+    height: 30px;
+    border: none;
+    background: rgb(83, 83, 83);
+    color: white;
+    cursor: pointer;
+}

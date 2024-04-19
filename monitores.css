@@ -28,7 +28,6 @@ nav a{
     margin-left: 30px;
 
 }
-
 #aviso{
     text-align: center;
     margin-top: 10px;
@@ -41,31 +40,40 @@ nav a{
     
 }
 
-h3{
-    color: white;
-    text-align: center;
-    font-size: 30px;
-}
-
-section div{
-    display: inline-block;
-    width: 350px;
-    border: 1px solid rgb(0, 9, 139);
-}
-h4{
-    color: white;
-
-}
-
-.s1{
-    display: block;
+section{
     margin-top: 20px;
     margin-left: 250px;
-    width: 1400px;
-    height: 300px;
-    border-radius: 10px;
+    margin-right: 250px;
     background: black;
+    height: 310px;
+}
+
+div{
+    margin-left: 80px;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background: white;
+    width: 350px;
 }
 div img{
+    
     height: 200px;
+}
+button{
+    margin-left: 270px;
+    height: 30px;
+    border: none;
+    background: black;
+    color: white;
+}
+
+button:hover{
+    margin-left: 270px;
+    height: 30px;
+    border: none;
+    background: rgb(83, 83, 83);
+    color: white;
+    cursor: pointer;
 }
